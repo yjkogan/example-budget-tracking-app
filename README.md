@@ -36,9 +36,13 @@ The following examples will lead us through the steps needed to have
 a nearly fully functioning budget-tracking application.
 
 [Part 1](https://github.com/yjkogan/example-budget-tracking-app/wiki/Part-1)
-[Part 2]
+
+[Part 2](https://github.com/yjkogan/example-budget-tracking-app/wiki/Part-2)
+
 [Part 3]
+
 [Part 4]
+
 [Part 5]
 
 ### Dependencies

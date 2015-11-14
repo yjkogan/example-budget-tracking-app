@@ -1,5 +1,31 @@
 @import "reset.scss";
 
+.form {
+  padding: 10px 0;
+}
+
+.input-group {
+  display: inline-block;
+  padding: 0 5px;
+  line-height: 21px;
+  > div, input {
+    display: inline-block;
+  }
+  > div {
+    padding-right: 2px;
+  }
+}
+
+.submit-btn {
+  border : solid 1px white;
+  border-radius : 2px;
+  font-size : 14px;
+  color : white;
+  padding : 1px 15px;
+  background-color : #0a66c9;
+  display: inline-block;
+}
+
 .spending-screen {
   padding: 25px;
 }
