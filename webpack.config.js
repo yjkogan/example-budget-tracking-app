@@ -1,12 +1,14 @@
 var path = require('path');
 var webpack = require('webpack');
 
+var basePath = './part1'
+
 module.exports = {
   devtool: 'eval',
   entry: [
     'webpack-dev-server/client?http://localhost:3000',
     'webpack/hot/only-dev-server',
-    './part1/index'
+    basePath + '/index'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
@@ -20,7 +22,7 @@ module.exports = {
     loaders: [{
       test: /\.js$/,
       loaders: ['react-hot', 'babel'],
-      include: path.join(__dirname, 'part1')
+      include: path.join(__dirname, basePath)
     }, {
       test: /\.scss$/,
       loaders: ['style-loader', 'css-loader', 'sass-loader'],

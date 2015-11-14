@@ -7,10 +7,10 @@ var App = React.createClass({
     return {
       // This is just dummy data
       spending: [
-        {id: 1, amount: 1000, category: 'Food'},
-        {id: 2, amount: 2000, category: 'Food'},
-        {id: 3, amount: 10000, category: 'Gifts & Charity'},
-        {id: 4, amount: 500, category: 'Home'},
+        {id: 1, amountCents: 1000, category: 'Food'},
+        {id: 2, amountCents: 2000, category: 'Food'},
+        {id: 3, amountCents: 10000, category: 'Gifts & Charity'},
+        {id: 4, amountCents: 500, category: 'Home'},
       ],
     };
   },
