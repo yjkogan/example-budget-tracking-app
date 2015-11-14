@@ -5,9 +5,11 @@ Scaffolding adapted from [react-hot-boilerplate](https://github.com/gaearon/reac
 
 The minimal dev environment to enable live-editing React components.
 
-### Reading Materials
+### Reading Materials (in order of importance)
 - [Getting Started guide for React](https://facebook.github.io/react/docs/getting-started.html)
 - [Primer on forms](http://blog.iansinnott.com/managing-state-and-controlled-form-fields-with-react/)
+- [React component lifecycle](https://facebook.github.io/react/docs/component-specs.html)
+- [Promises](https://spring.io/understanding/javascript-promises)
 
 ### Prerequisites
 - Node.js (and NPM). You can install it fairly easily [here](https://nodejs.org/en/).
@@ -35,15 +37,15 @@ npm run lint
 The following examples will lead us through the steps needed to have
 a nearly fully functioning budget-tracking application.
 
-[Part 1](https://github.com/yjkogan/example-budget-tracking-app/wiki/Part-1)
+**The server is configured for part1. As we progress, modify the variable `basePath` in webpack.config.js to the appropriate section.**
 
-[Part 2](https://github.com/yjkogan/example-budget-tracking-app/wiki/Part-2)
+[Part 1](https://github.com/yjkogan/example-budget-tracking-app/wiki/Part-1): Learn the basics of creating a React component and displaying an array of elements.
 
-[Part 3]
+[Part 2](https://github.com/yjkogan/example-budget-tracking-app/wiki/Part-2): Learn how to accept user input in React.
+
+[Part 3](https://github.com/yjkogan/example-budget-tracking-app/wiki/Part-3): Learn about the component Life Cycle and working with AJAX requests.
 
 [Part 4]
-
-[Part 5]
 
 ### Dependencies
 
