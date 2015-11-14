@@ -7,7 +7,6 @@ The minimal dev environment to enable live-editing React components.
 
 ### Reading Materials
 - [Getting Started guide for React](https://facebook.github.io/react/docs/getting-started.html)
-- 
 
 ### Prerequisites
 - Node.js (and NPM). You can install it fairly easily [here](https://nodejs.org/en/).
