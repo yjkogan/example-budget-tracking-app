@@ -7,6 +7,7 @@ The minimal dev environment to enable live-editing React components.
 
 ### Reading Materials
 - [Getting Started guide for React](https://facebook.github.io/react/docs/getting-started.html)
+- [Primer on forms](http://blog.iansinnott.com/managing-state-and-controlled-form-fields-with-react/)
 
 ### Prerequisites
 - Node.js (and NPM). You can install it fairly easily [here](https://nodejs.org/en/).
