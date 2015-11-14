@@ -1,7 +1,7 @@
 Chicago Women Developers Intro to React
 =====================
 
-Scaffolding adapted from LINK HERE
+Scaffolding adapted from [react-hot-boilerplate](https://github.com/gaearon/react-hot-boilerplate).
 
 The minimal dev environment to enable live-editing React components.
 
