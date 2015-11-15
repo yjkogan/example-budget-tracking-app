@@ -13,7 +13,8 @@ The minimal dev environment to enable live-editing React components.
 
 ### Prerequisites
 - Node.js (and NPM). You can install it fairly easily [here](https://nodejs.org/en/).
-  Linux can probably install node with `apt-get install`
+  Linux can probably install node with `apt-get install`.
+  **If you already have node installed, make sure you have at least version 4!**
 - (If you're on mac) [Xcode](https://developer.apple.com/xcode/download/) must be installed in order
   for certain node packages to work. Download Xcode from the above link and then open it once. When
   it asks to install some additional requirements, say yes.
