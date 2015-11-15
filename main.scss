@@ -39,11 +39,40 @@
   font-size: 50px;
 }
 
-.spending-screen {
+.nav-bar {
+  position: relative;
+  min-height: 50px;
+  border: 1px solid transparent;
+  background-color: #8F9299;
+
+}
+
+.nav-item {
+  position: relative;
+  float: left;
+  padding: 9px 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-image: none;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  line-height: 32px;
+  box-sizing: border-box;
+  > a {
+    color: black;
+    &:hover {
+      color: white;
+    }
+  }  
+}
+
+.spending-screen, .categories-screen {
   padding: 25px;
 }
 
-.spending-screen__title {
+.spending-screen__title, .categories-screen__title {
   font-weight: bold;
   font-size: 22px;
 }
