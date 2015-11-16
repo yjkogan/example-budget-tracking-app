@@ -17,7 +17,7 @@ var App = React.createClass({
     return (
       <div className="main-app">
         <ul className="nav-bar">
-          <li className="nav-item"><Link to="/">Seating</Link></li>
+          <li className="nav-item"><Link to="/">Spending</Link></li>
           <li className="nav-item"><Link to="/categories">Categories</Link></li>
         </ul>
         {this.props.children}

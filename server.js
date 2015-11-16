@@ -33,20 +33,54 @@ var spending = [
   {id: 1, amountCents: 500, category: 'Server Management'},
 ];
 
+var categories = [
+  'Server Food (POWER)',
+  'Server Home (CO-LO)',
+];
+
 app.get('/items', function(req, res, next) {
   setTimeout(function() {
     return res.send(JSON.stringify(spending));
   }, 1000);
 });
 
-app.put('/items', function(req, res, next) {
+app.post('/items', function(req, res, next) {
   var newItem = {id: getRandomInt(2, 10000), amountCents: Number(req.body.amountCents), category: req.body.category};
   console.log('Received Item', newItem);
-  spending = spending.concat(newItem);
+  spending = spending.concat([newItem]);
   setTimeout(function() {
-    // "Technically" you need to PUT and then GET, but I prefer
-    // just to return what you would get from hitting the GET endpoint
     return res.send(JSON.stringify(spending));    
+  }, getRandomInt(500, 2000));
+});
+
+app.get('/categories', function(req, res, next) {
+  setTimeout(function() {
+    return res.send(JSON.stringify(categories));
+  }, getRandomInt(400, 4000));
+});
+
+app.post('/categories', function(req, res, next) {
+  var newCategory = req.body.category.categoryName;
+  console.log('Received Category', newCategory);
+  if (categories.indexOf(newCategory) > -1) {
+    return res.status(500).return('That category already exists');
+  }
+  categories = categories.concat([newCategory]);
+  setTimeout(function() {
+    return res.send(JSON.stringify(categories));    
+  }, getRandomInt(500, 2000));
+});
+
+app.delete('/categories/:category', function(req, res, next) {
+  var categoryToDelete = req.params.category;
+  console.log('Received Category to delete', categoryToDelete);
+  var categoryIndex = categories.indexOf(categoryToDelete);
+  if (categoryIndex < 0) {
+    return res.status(500).return('That category doesnt exist');
+  }
+  categories.splice(categoryIndex, 1);
+  setTimeout(function() {
+    return res.send(JSON.stringify(categories));    
   }, getRandomInt(500, 2000));
 });
 

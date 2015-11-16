@@ -23,7 +23,7 @@ var App = React.createClass({
         <div className="spending-screen__items">
           {this.state.spending.map(function(item, idx) {
             return (
-              <SpendingItem key={idx} amount={item.amountCents} category={item.category} />
+              <SpendingItem key={idx} amountCents={item.amountCents} category={item.category} />
             );
           })}
         </div>

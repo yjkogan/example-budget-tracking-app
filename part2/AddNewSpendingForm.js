@@ -19,9 +19,9 @@ var AddNewSpendingForm = React.createClass({
           <div>Amount (in Cents):</div>
           <input type="number" name='amountCents' value={this.state.amountCents} />
         </div>
-        <div className='input-group' name='category'>
+        <div className='input-group'>
           <div>Category:</div>
-          <select value={this.state.category}>
+          <select  name='category' value={this.state.category}>
             <option value=''>None</option>
             <option value="Food">Food</option>
             <option value="Home">Home</option>

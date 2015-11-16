@@ -10,7 +10,7 @@ var React = require('react');
  */
 var SpendingItem = function(props) {
   return (
-    <div>${(props.amount/100).toFixed(2)} spent on {props.category}</div>
+    <div>${(props.amountCents/100).toFixed(2)} spent on {props.category}</div>
   );
 };
 

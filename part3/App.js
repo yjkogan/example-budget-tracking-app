@@ -26,13 +26,16 @@ var App = React.createClass({
       })
       .then(function(result) {
         // Use the result to update the component's state
+        // Note that if you want to access tho class, you need to use `self` here
+        // because of weird javascript scoping of the keywoard `this`
       });
   },
 
   handleSubmit: function(formData) {
+    var self = this;
     var newSpendingItem = {amountCents: formData.amountCents, category: formData.category};
-    // Do an axios.put here.
-    // It looks just like the "post" in the example at this link: https://github.com/mzabriskie/axios#example
+    // Do an axios.post here.
+    // Check out the example at this link: https://github.com/mzabriskie/axios#example
   },
 
   render: function() {
@@ -45,7 +48,7 @@ var App = React.createClass({
         <div className="spending-screen__items">
           {this.state.spending.map(function(item) {
             return (
-              <SpendingItem key={item.id} amount={item.amountCents} category={item.category} />
+              <SpendingItem key={item.id} amountCents={item.amountCents} category={item.category} />
             );
           })}
         </div>

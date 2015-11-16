@@ -7,3 +7,13 @@ export function getCategories() {
     // Fill in here
   };
 }
+
+export function addCategory(category) {
+  return (dispatch) => {
+  };
+}
+
+export function deleteCategory(category) {
+  return (dispatch) => {
+  };
+}

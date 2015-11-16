@@ -18,7 +18,7 @@ export function getSpendingItems() {
 export function addSpendingItem(newItem) {
   return (dispatch) => {
     dispatch({type: 'ADD_SPENDING_ITEM'});
-    axios.put(API_BASE + '/items', newItem)
+    axios.post(API_BASE + '/items', newItem)
       .then(function(response) {
         if (response.status >= 400) {
           dispatch({type: 'ADD_SPENDING_ITEM_FAILED', payload: 'Bad response from server'});
