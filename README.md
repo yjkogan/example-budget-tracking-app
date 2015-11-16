@@ -46,7 +46,7 @@ a nearly fully functioning budget-tracking application.
 
 [Part 3](https://github.com/yjkogan/example-budget-tracking-app/wiki/Part-3): Learn about the component Life Cycle and working with AJAX requests.
 
-[Part 4]
+[Part 4](https://github.com/yjkogan/example-budget-tracking-app/wiki/Part-4): Explore and extend a "real-world" example budget-app.
 
 ### Dependencies
 
