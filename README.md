@@ -47,19 +47,3 @@ a nearly fully functioning budget-tracking application.
 [Part 3](https://github.com/yjkogan/example-budget-tracking-app/wiki/Part-3): Learn about the component Life Cycle and working with AJAX requests.
 
 [Part 4](https://github.com/yjkogan/example-budget-tracking-app/wiki/Part-4): Explore and extend a "real-world" example budget-app.
-
-### Dependencies
-
-* React
-* Webpack
-* [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
-* [babel-loader](https://github.com/babel/babel-loader)
-* [react-hot-loader](https://github.com/gaearon/react-hot-loader)
-
-### Resources
-
-* [Demo video](http://vimeo.com/100010922)
-* [react-hot-loader on Github](https://github.com/gaearon/react-hot-loader)
-* [Integrating JSX live reload into your workflow](http://gaearon.github.io/react-hot-loader/getstarted/)
-* [Troubleshooting guide](https://github.com/gaearon/react-hot-loader/blob/master/docs/Troubleshooting.md)
-* Ping dan_abramov on Twitter or #reactjs IRC
