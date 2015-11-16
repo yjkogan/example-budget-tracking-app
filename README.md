@@ -24,14 +24,6 @@ npm start
 open http://localhost:3000
 ```
 
-### Linting
-
-This boilerplate project includes React-friendly ESLint configuration.
-
-```
-npm run lint
-```
-
 ### Examples
 The following examples will lead us through the steps needed to have
 a nearly fully functioning budget-tracking application.
