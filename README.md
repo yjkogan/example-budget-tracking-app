@@ -18,6 +18,9 @@ Scaffolding adapted from [react-hot-boilerplate](https://github.com/gaearon/reac
   it asks to install some additional requirements, say yes.
 
 ### Running the server
+First, clone the repository from the command line with `git clone https://github.com/yjkogan/example-budget-tracking-app.git`.
+Then change directories to the repository (`cd example-budget-tracking-app`) and you should be ready to install and run!
+
 ```
 npm install
 npm start
