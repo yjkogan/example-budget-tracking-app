@@ -3,8 +3,6 @@ Chicago Women Developers Intro to React
 
 Scaffolding adapted from [react-hot-boilerplate](https://github.com/gaearon/react-hot-boilerplate).
 
-The minimal dev environment to enable live-editing React components.
-
 ### Reading Materials (in order of importance)
 - [Getting Started guide for React](https://facebook.github.io/react/docs/getting-started.html)
 - [Primer on forms](http://blog.iansinnott.com/managing-state-and-controlled-form-fields-with-react/)
